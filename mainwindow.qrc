@@ -1,0 +1,11 @@
+<RCC>
+    <qresource prefix="/MainWindow"/>
+    <qresource prefix="/icons">
+        <file>icons/pause.png</file>
+        <file>icons/play.png</file>
+        <file>icons/arrow_down.png</file>
+        <file>icons/arrow_up.png</file>
+        <file>icons/fastforward.png</file>
+        <file>icons/fastforward3.png</file>
+    </qresource>
+</RCC>
