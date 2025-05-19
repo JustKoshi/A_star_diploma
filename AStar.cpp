@@ -51,7 +51,7 @@ Astar::Astar(QString filename, heuristicType heuristic)
             throw std::runtime_error("Nieprawidłowa liczba znaków w wierszu.");
         }
         for (int i = 0; i < width; ++i) {  // Iteracja po kolumnach (X)
-            char value = lines[j][i].toLatin1();  // Konwersja QString -> char
+            char value = lines[j][i].toLatin1();  // Konwersja QString -> char - ważne!
             if (value != '1' && value != '0') {
                 throw std::invalid_argument("Invalid character in file: " + QString(value).toStdString());
             }

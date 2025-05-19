@@ -10,6 +10,7 @@ std::ostream& operator<<(std::ostream& os, const stats_str& stats) {
     return os;
 }
 
+///creates window with stats based on stats recived from A*///
 statisticswindow::statisticswindow(QWidget* parent, std::unordered_map<heuristicType, stats_str> stats)
 	: QMainWindow(parent), statistics(stats)
 {   
@@ -47,7 +48,6 @@ statisticswindow::statisticswindow(QWidget* parent, std::unordered_map<heuristic
         return stats.ratio_visted_all;
         }));
 
-    // Set the central widget
     setCentralWidget(centralWidget);
 }
 

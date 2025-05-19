@@ -45,7 +45,5 @@ void ClickableRectItem::resizeRect(float size) {
     QRectF textRect = label->boundingRect();
     label->setPos(rect.x() + (rect.width() - textRect.width()) / 2,
         rect.y() + (rect.height() - textRect.height()) / 2);
-    
-	
 	
 }

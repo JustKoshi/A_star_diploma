@@ -13,7 +13,6 @@
 #include <QtCharts/QBarSet>
 #include <QtCharts/QBarCategoryAxis>
 #include <QDebug>
-#include <iostream>
 #include <QHBoxLayout>
 
 
