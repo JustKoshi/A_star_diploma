@@ -1,9 +1,9 @@
-QT       += core gui charts
+QT       += core gui charts testlib
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
 
-CONFIG += c++17
+CONFIG += c++17 testcase
 
 # You can make your code fail to compile if it uses deprecated APIs.
 # In order to do so, uncomment the following line.
@@ -11,6 +11,7 @@ CONFIG += c++17
 
 SOURCES += \
     AStar.cpp \
+    AStarTests.cpp \
     Extras.cpp \
     clickablerect.cpp \
     main.cpp \

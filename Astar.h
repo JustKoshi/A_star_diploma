@@ -1,5 +1,7 @@
 #pragma once
 
+#define TESTS 0
+
 #include "Node.h"
 #include "Extras.h"
 #include <vector>
